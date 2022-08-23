@@ -396,7 +396,7 @@ public class TNTListener implements Listener {
     }
 
     private boolean isObsidian(Material material) {
-        return material == Material.OBSIDIAN || (CRYING_OBSIDIAN != null && material == CRYING_OBSIDIAN);
+        return true;
     }
 
     private boolean isTNT(Entity entity) {
